@@ -1,0 +1,80 @@
+<html>
+    <head> 
+        <style>
+        #right{
+            height: 175px; 
+            width: 300px;
+            padding: 5px; 
+            position: absolute;
+            margin-left: 320px;
+            background-color: #cccccc; 
+        }
+        #left{
+            height: 200px; 
+            width: 300px;
+            padding: 5px; 
+            background-color: #cccccc; 
+            
+        }  
+
+        body{
+            font-family: sans-serif;
+        }
+
+        label {display:inline-block; width: 110px;}
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Columns!</h1>
+        <div id = "right">
+            <label for="Name">Name</label>
+            <input type="text" name="Name" id= "Name" />
+
+            <div></div>
+
+            <label for="Age" >Age</label>
+            <input type="text" name="Age" id= "Age" />
+
+            <div></div>
+            
+            <label for="Color" >Favorite Color</label>
+            <select id="Color">
+                <option value="magenta">Magenta</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="fuchsia">Fuchsia</option>
+            </select>
+
+            <div></div>
+            
+            <label for="love" >Love Music</label>
+            <input type="radio" name="music" id="love" value="love" />
+            
+            <div></div>
+             
+            <label for="hate" >Hate Music</label> 
+            <input type="radio" name="music" id="hate" value="hate" />
+
+            <div></div>
+             
+            <label for = "raining" class= "text"> Is it raining?</label>
+            <input type="checkbox" name="raining" id= "raining" value="Raining" />
+
+            <div></div>
+         
+            <input type="submit" name="Submit" />
+        </div>
+        <div id = "left">
+            <h2>Here is a list of things.</h2>
+              <ul>
+                <li>Banana.</li>
+                <li>Rabbit holes.</li>
+                <li>John Quincy Adams</li>
+                <li>A sea serpent</li>
+            </ul>
+        </div>
+    </body>
+</html>
